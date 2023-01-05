@@ -32,11 +32,11 @@ There are two ways to "freeze" apps, hide and disable.
 
 ### Hide
 
-Hidden apps will not shown in launcher and installed app list. Unhide them to revert.
+Hidden apps will not be shown in launcher and installed app list. Unhide them to revert.
 
 ### Disable
 
-Disable apps will not shown in launcher. Enable them to revert.
+Disable apps will not be shown in launcher. Enable them to revert.
 
 ## Working mode
 
@@ -55,7 +55,7 @@ Hail can work with `Device Owner - Hide`, `Superuser - Disable` and `Shizuku - D
 
 This mode invoke `DevicePolicyManager.setApplicationHidden` to hide apps.
 
-**You must remove device owner before uninstall**
+**You must remove device owner account or profile before uninstalling the application**
 
 #### Set device owner by adb
 
